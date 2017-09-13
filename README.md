@@ -37,3 +37,15 @@ nlink
 to list all globaly linked modules
 ```
 nlink -a
+```
+
+to delete a symlink from the application
+```
+nlink -d package-name
+```
+
+to delete a global symlink
+```
+nlink -D package-name
+# note that this will look in the current directory, and if its an application root dir, it will try to remove the symlink in the applications node_module aswell, if found
+```
