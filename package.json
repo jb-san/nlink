@@ -1,0 +1,23 @@
+{
+  "name": "nlink",
+  "version": "1.0.0",
+  "description": "manage npm links to speed up library development",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jb-san/nlink.git"
+  },
+  "author": "Jonathan Borg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jb-san/nlink/issues"
+  },
+  "homepage": "https://github.com/jb-san/nlink#readme",
+  "dependencies": {
+    "minimist": "^1.2.0",
+    "optimist": "^0.6.1"
+  }
+}
